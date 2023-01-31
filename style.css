@@ -81,4 +81,11 @@
             from{margin-left: -100vw;}
             top{margin-left: -10vw;}
         }
-        }
+ nav
+ {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    
+ }       
