@@ -113,6 +113,8 @@
  .eu{
     font-size: 3vw;
     padding: 3%;
+    text-align: justify;
+    font-weight: bolder;
  }
 .textoeu{
     text-align: justify;
@@ -124,17 +126,24 @@
     font-size: 2vw;
     padding: 2%;
     text-align: justify;
+    text-shadow: #034c52;
+    font-weight: bolder;
  }
  .textoexperiencia{
     font-size: 5vw;
     padding: 2%;
     text-align: right;
+    
  }
  .Cursos{
     font-size: 2vw;
     padding: 2%;
+    text-align: justify;
+    text-decoration-color: #034c52;
+    font-weight: bolder;
  }
  .textocurso{
     font-size: 2vw;
     padding: 2%;
+    text-align: justify;
  }
