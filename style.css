@@ -107,6 +107,15 @@
  .imagem{
     height: 80vh;
     width: auto; 
+    border: 8px solid var(--color-dark4);
+    box-shadow: 1px 1px 4px black;
+    position: relative;
+    top: 0px;
+    background-color: rgba(0,0,0,.4) black;
+    color: white;
+    width: 
+    ;
+
 
  }
 
