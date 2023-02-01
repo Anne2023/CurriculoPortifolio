@@ -133,5 +133,8 @@
  .Cursos{
     font-size: 2vw;
     padding: 2%;
-    .textocurs{}
+ }
+ .textocurso{
+    font-size: 2vw;
+    padding: 2%;
  }
