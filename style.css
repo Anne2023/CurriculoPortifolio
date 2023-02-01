@@ -113,6 +113,12 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-
+    font: 1em sans-serif;
+    text-align: left;
+    gap: 200px;
+ }
+ .Curso{
+    margin: 100px;
+    padding-top: 100px;
 
  }
