@@ -121,15 +121,12 @@
 }
 
  .Experiência{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    font: 1em sans-serif;
     text-align: left;
-    gap: 200px;
+    
+    font-size: 2vw;
+    padding: 3%;
  }
- .Curso{
-    margin: 100px;
-    padding-top: 100px;
-
+ .Cursos{
+    font-size: 2vw;
+    padding: 2%;
  }
