@@ -124,9 +124,9 @@
     background-color: #015c63;
  }
  .textoexperiencia{
-    font-size: 5vw;
+    font-size: 3vw;
     padding: 2%;
-    text-align: right;
+    text-align: justify;
     
  }
  .Cursos{
@@ -142,12 +142,16 @@
  .contato{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    width: 70%
+    ;
  }
 
  .icones{
     display: flex;
     flex-direction: row;
     margin-top: 5%;
+    justify-content: space-around;
  }
 
  .contato h1{
@@ -155,10 +159,21 @@
     padding: 2%;
  }
 
- .emailicone{}
+ .emailicone{
+    height: 10vh;
+    width: auto; 
 
- .telefoneinoce{}
-
- .instaicone{}
-
- .inicone{}
+ }
+ .telefoneicone{
+    height: 10vh;
+    width: auto; 
+ 
+ }
+ .instaicone{
+    height: 10vh;
+    width: auto; 
+ }
+ .inicone{
+    height: 10vh;
+    width: auto; 
+ }
