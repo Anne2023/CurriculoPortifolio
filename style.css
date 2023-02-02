@@ -39,7 +39,7 @@ html{
         }
 
         .header{
-            background-color: var(--color-dark2);
+            background-color: var(--color-puple);
             box-shadow: 1px 1px 4px var(--color-dark4);
             height: 56px;
             justify-content: space-around;
@@ -221,4 +221,10 @@ html{
  .inicone{
     height: 20vh;
     width: auto; 
+ }
+ .home{
+    padding: 5%;
+    height: 50vh;
+    width: auto;
+
  }
