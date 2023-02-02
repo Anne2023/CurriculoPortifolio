@@ -1,4 +1,8 @@
 
+html{
+    scroll-behavior: smooth;
+}
+
         :root{
             --color-white: #fff;
             --color-dark1: #ffc0b4;
@@ -9,25 +13,32 @@
             --color-puple: #034c52;
         }
 
-
         *{
         margin: 0;
         padding: 0;
         }
+
         body{
             font-family: Arial, Helvetica, sans-serif;
             background-color: var(--color-dark1);
             color: var(--color-white);
         }
+
+        body div{
+            height: 100vh;
+        }
+
         .img_logo_header{
             width: 10vw;
         }
+
         .header,
         .navigation_header{
             display: flex;
             flex-direction: row;
             align-items: center;
         }
+
         .header{
             background-color: var(--color-dark2);
             box-shadow: 1px 1px 4px var(--color-dark4);
@@ -35,6 +46,7 @@
             justify-content: space-around;
             position: fixed;
             width: 100vw;
+            z-index: 999;
         }
         .navigation_header{
             gap: 3em;
@@ -93,6 +105,7 @@
     display: flex;
     flex-direction: row;
     max-height: 100vh;
+    justify-content: space-between;
  }
 
  .eu{
@@ -104,7 +117,7 @@
 
 .tituloeu{
     font-size: 5vw;
-    
+    font-weight: bold;
 }
 
 .textoeu{
@@ -118,64 +131,95 @@
     width: auto;
     -webkit-filter: drop-shadow(5px 10px 20px #222);
     filter: drop-shadow(5px 15px 10px #222);
+    margin-top: 3vh;
 }
 
+.tela2{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100vw;
+    justify-content: space-between;
+}
 
+.imagem2{
+    padding: 5%;
+    height: 80vh;
+    width: auto;
+    -webkit-filter: drop-shadow(5px 10px 20px #222);
+    filter: drop-shadow(5px 15px 10px #222);
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- .contato{
+.texto2{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    width: 70%
-    ;
- }
+    text-align: right;
+    padding: 5%;
+    font-size: 1.5vw;
+}
 
- .icones{
+.tituloexperiencia{
+    font-size: 3vw;
+    font-weight: bold;
+}
+
+.textoesperiencia{
+    text-align: justify;
+    font-size: 1.5vw;
+}
+
+.tela3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.titulocurso{
+    font-size: 5vw;
+    font-weight: bold;
+}
+
+.textocurso{
+    font-size: 1.5vw;
+}
+
+.tela4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.icones{
     display: flex;
     flex-direction: row;
-    margin-top: 5%;
     justify-content: space-around;
- }
+    width: 100vw;
+    height: auto;
+    margin-top: 10vh;
+}
 
- .contato h1{
-    font-size: 4vw;
-    padding: 2%;
- }
+.titulocontato{
+    font-size: 3vw;
+    font-weight: bold;
+}
 
  .emailicone{
-    height: 10vh;
+    height: 20vh;
     width: auto; 
 
  }
  .telefoneicone{
-    height: 10vh;
+    height: 20vh;
     width: auto; 
  
  }
  .instaicone{
-    height: 10vh;
+    height: 20vh;
     width: auto; 
  }
  .inicone{
-    height: 10vh;
+    height: 20vh;
     width: auto; 
  }
